@@ -140,7 +140,7 @@ def run():
     dr = iniciar()
     pid = dr.service.process.pid
     total_disparos_global = 0
-    MAX_DISPAROS_CICLO = 5000
+    MAX_DISPAROS_CICLO = 1000
     
     try:
         handles = abrir_y_verificar_tags_todos(dr)
